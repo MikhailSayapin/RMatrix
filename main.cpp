@@ -5,13 +5,12 @@ using namespace std;
 
 int main()
 {
-     setlocale(LC_ALL, "Russian"); // Делает доступным русский язык
      int a[4][5];
      for (int x=0; x<4; x++) //Цикл бегает по столбцам 
      {
          for (int y=0; y<5; y++) //Цикл бегает по строкам
          {
-             cout << "Введите " << x+1 << " " << y+1 << " Элемент матрицы" << endl; /* Складываем с единицей, 
+             cout << "Enter the " << x+1 << " " << y+1 << " matrix element" << endl; /* Складываем с единицей, 
              потому что массив начинает заполняться с нуля*/
              cin >> a[x][y];
          }
@@ -28,9 +27,9 @@ int main()
      }
      
      int M, N;
-     cout << "\nВведите N" << endl; //N - строки
+     cout << "\nEnter N" << endl; //N - строки
      cin >> N;
-     cout << "Введите M" << endl; //M - столбцы
+     cout << "Enter M" << endl; //M - столбцы
      cin >> M;
      cout << endl;
      
