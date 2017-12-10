@@ -27,9 +27,9 @@ int main()
      }
      
      int M, N;
-     cout << "Введите N" << endl; //N - этаж
+     cout << "Введите N" << endl; //N - строки
      cin >> N;
-     cout << "Введите M" << endl; //M - кабинет
+     cout << "Введите M" << endl; //M - столбцы
      cin >> M;
      
       for (int x=0; x<4; x++)  
